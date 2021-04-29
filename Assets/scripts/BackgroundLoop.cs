@@ -5,7 +5,7 @@ using UnityEngine;
 public class BackgroundLoop : MonoBehaviour
 {
     private float width;
-    void Awale()
+    void Awake()
     {
         BoxCollider2D backgroundCollider = GetComponent<BoxCollider2D>();
         width = backgroundCollider.size.x; //2.48
